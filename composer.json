@@ -1,0 +1,14 @@
+{
+    "name": "leconfe/template-theme",
+    "autoload": {
+        "psr-4": {
+            "TemplateTheme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leconfe"
+        }
+    ],
+    "require": {}
+}

@@ -92,7 +92,7 @@
     {{-- layout 2 --}}
     <div class="prose prose-li: max-w-none w-full bg-white">
         <div class="prose prose-li: max-w-none w-full">
-            @if (!empty($layouts) && isset($layouts[0]))
+            @if (!empty($layouts) && isset($layouts[1]))
                 <div class="layout-section">
                     {{ new Illuminate\Support\HtmlString($layouts[1]['data']['about']) }}
                 </div>
@@ -436,7 +436,7 @@
         {{-- layout 2 --}}
         <div class="prose prose-li: max-w-none w-full mt-[-100]">
             <div class="prose prose-li: max-w-none w-full">
-                @if (!empty($layouts) && isset($layouts[0]))
+                @if (!empty($layouts) && isset($layouts[3]))
                     <div class="layout-section">
                         {{ new Illuminate\Support\HtmlString($layouts[3]['data']['about']) }}
                     </div>
